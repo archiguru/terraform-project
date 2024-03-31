@@ -1,0 +1,52 @@
+### JetBrains ###
+# 涵盖JetBrains IDE：IntelliJ、Rubymine、PhpStorm、AppCode、PyCharm、Clion、WebStorm
+# 参考: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+.idea
+
+# IntelliJ
+out/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# 默认忽略的文件
+/shelf/
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+
+# CMake
+cmake-build-*/
+
+# JetBrains Patch
+*.iml
+*.ipr
+*.iws
+modules.xml
+
+### Terraform ###
+# 本地 .terraform 目录
+/.terraform/
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# 排除所有.tfvars文件，这些文件可能包含密码、私钥和其他机密等敏感数据。
+# 这些不应该是版本控制的一部分，因为它们是可能敏感的数据点，并且可能会根据环境的不同而变化。
+#*.tfvars
+#*.tfvars.json
+
+# 忽略重写文件，因为它们通常用于在本地重写资源，因此不会签入
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 忽略 CLI 配置文件
+.terraformrc
+terraform.rc
