@@ -22,6 +22,11 @@ domain_config = {
     lang        = "zh"
     remark      = "ArchiGuru"
   }
+  dilyslyu_com = {
+    domain_name = "dilyslyu.com"
+    lang        = "zh"
+    remark      = "DilysLyu"
+  }
 }
 
 # 域名解析记录
@@ -80,6 +85,31 @@ records_config = {
     domain_name = "archiguru.io"
     type        = "CNAME"
     value       = "cname.vercel-dns.com"
+    ttl         = 600
+    priority    = 1
+    line        = "default"
+    lang        = "zh"
+    remark      = "Vercel blog"
+    status      = "ENABLE"
+  }
+  # dilyslyu
+  www-dilyslyu = {
+    rr          = "www"
+    domain_name = "dilyslyu.com"
+    type        = "CNAME"
+    value       = "cname.vercel-dns.com"
+    ttl         = 600
+    priority    = 1
+    line        = "default"
+    lang        = "zh"
+    remark      = "Vercel blog"
+    status      = "ENABLE"
+  }
+  a-dilyslyu = {
+    rr          = "@"
+    domain_name = "dilyslyu.com"
+    type        = "A"
+    value       = "76.76.21.21"
     ttl         = 600
     priority    = 1
     line        = "default"
