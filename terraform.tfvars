@@ -1,4 +1,4 @@
-// alicloud resource group
+// 阿里云资源组
 alicloud_resource_manager_resource_group = {
   // for DynadotGroup
   dynadot = {
