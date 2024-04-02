@@ -50,6 +50,7 @@ records_config = {
     remark      = "EOYSKY assist "
     status      = "ENABLE"
   }
+  # archiguru
   a-archiguru = {
     rr          = "@"
     domain_name = "archiguru.io"
@@ -72,6 +73,18 @@ records_config = {
     line        = "default"
     lang        = "zh"
     remark      = "ArchiGuru assist "
+    status      = "ENABLE"
+  }
+  blog-archiguru = {
+    rr          = "blog"
+    domain_name = "archiguru.io"
+    type        = "CNAME"
+    value       = "cname.vercel-dns.com"
+    ttl         = 600
+    priority    = 1
+    line        = "default"
+    lang        = "zh"
+    remark      = "Vercel blog"
     status      = "ENABLE"
   }
 }
