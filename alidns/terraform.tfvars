@@ -179,4 +179,16 @@ records_config = {
     remark      = "RSSHUB"
     status      = "ENABLE"
   }
+  admin-rsshub = {
+    rr          = "admin"
+    domain_name = "rsshub.in"
+    type        = "A"
+    value       = "158.179.163.120"
+    ttl         = 600
+    priority    = 1
+    line        = "default"
+    lang        = "zh"
+    remark      = "RSSHUB admin"
+    status      = "ENABLE"
+  }
 }
