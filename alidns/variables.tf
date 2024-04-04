@@ -1,3 +1,8 @@
+variable "oracle_server_ip" {
+  description = "Oracle Cloud 服务器IP"
+  type        = string
+  default     = ""
+}
 # 资源组
 variable "resource_group_config" {
   description = "阿里云资源管理器资源组"
@@ -44,15 +49,5 @@ variable "records_config" {
     remark      = string # 可选。域名记录的备注
     status      = string # 可选。域记录的状态
   }))
+  default = {}
 }
-
-#
-#// huaweicloud_dns
-#variable "huaweicloud_dns" {
-#  description = "华为云 DNS 配置"
-#  type        = object({
-#    domain_group_name = string
-#    lang              = string
-#  })
-#  default = null
-#}

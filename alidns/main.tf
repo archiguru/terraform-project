@@ -6,6 +6,8 @@ resource "alicloud_resource_manager_resource_group" "resource_group" {
 
 # 域名组
 resource "alicloud_alidns_domain_group" "dynadot_group" {
+  depends_on = [alicloud_resource_manager_resource_group.resource_group]
+
   domain_group_name = "Dynadot"
 }
 
