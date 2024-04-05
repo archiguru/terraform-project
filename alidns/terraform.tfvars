@@ -104,6 +104,18 @@ records_config = {
     remark      = "Vercel blog"
     status      = "ENABLE"
   }
+  static-archiguru = {
+    rr          = "static"
+    domain_name = "archiguru.io"
+    type        = "A"
+    value       = "158.179.163.120"
+    ttl         = 600
+    priority    = 1
+    line        = "default"
+    lang        = "zh"
+    remark      = "Static File Server"
+    status      = "ENABLE"
+  }
   ############# dilyslyu
   www-dilyslyu = {
     rr          = "www"
