@@ -28,11 +28,6 @@ domain_config = {
     lang        = "zh"
     remark      = "Dilys"
   }
-  jonnyhub_com = {
-    domain_name = "jonnyhub.com"
-    lang        = "zh"
-    remark      = "Default"
-  }
   rsshub_in = {
     domain_name = "rsshub.in"
     lang        = "zh"
@@ -139,31 +134,6 @@ records_config = {
     line        = "default"
     lang        = "zh"
     remark      = "Vercel blog"
-    status      = "ENABLE"
-  }
-  ############# jonnyhub
-  www-jonnyhub = {
-    rr          = "www"
-    domain_name = "jonnyhub.com"
-    type        = "A"
-    value       = "158.179.163.120"
-    ttl         = 600
-    priority    = 1
-    line        = "default"
-    lang        = "zh"
-    remark      = "Vercel blog"
-    status      = "ENABLE"
-  }
-  a-jonnyhub = {
-    rr          = "@"
-    domain_name = "jonnyhub.com"
-    type        = "A"
-    value       = "158.179.163.120"
-    ttl         = 600
-    priority    = 1
-    line        = "default"
-    lang        = "zh"
-    remark      = "Default"
     status      = "ENABLE"
   }
   ############# rsshub
