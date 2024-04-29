@@ -87,8 +87,8 @@ records_config = {
     remark      = "ArchiGuru assist "
     status      = "ENABLE"
   }
-  blog-archiguru = {
-    rr          = "blog"
+  vlog-archiguru = {
+    rr          = "vlog"
     domain_name = "archiguru.io"
     type        = "CNAME"
     value       = "cname.vercel-dns.com"
@@ -97,6 +97,18 @@ records_config = {
     line        = "default"
     lang        = "zh"
     remark      = "Vercel blog"
+    status      = "ENABLE"
+  }
+  blog-archiguru = {
+    rr          = "blog"
+    domain_name = "archiguru.io"
+    type        = "CNAME"
+    value       = "ghs.google.com"
+    ttl         = 600
+    priority    = 1
+    line        = "default"
+    lang        = "zh"
+    remark      = "Google Blogger"
     status      = "ENABLE"
   }
   static-archiguru = {
@@ -109,6 +121,18 @@ records_config = {
     line        = "default"
     lang        = "zh"
     remark      = "Static File Server"
+    status      = "ENABLE"
+  }
+  mis62w5cefnv-archiguru = {
+    rr          = "mis62w5cefnv"
+    domain_name = "archiguru.io"
+    type        = "CNAME"
+    value       = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
+    ttl         = 600
+    priority    = 1
+    line        = "default"
+    lang        = "zh"
+    remark      = "Google blogger verify"
     status      = "ENABLE"
   }
   ############# dilyslyu
