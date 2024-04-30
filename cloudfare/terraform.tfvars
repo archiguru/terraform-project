@@ -12,7 +12,7 @@ servers = [
     type            = "A"
     name            = "@"
     value           = "61.111.251.61"
-    comment         = "主域名解析"
+    comment         = "根域名解析"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -61,7 +61,7 @@ servers = [
     domain          = "jonnyhub.com"
     type            = "A"
     name            = "rack"
-    value           = "61.111.251.61"
+    value           = "142.171.199.189"
     comment         = "US-3X-UI"
     ttl             = "60"
     proxied         = false
@@ -108,26 +108,26 @@ servers = [
     allow_overwrite = true
   },
   #  =============== archiguru.io ===============
-#  {
-#    domain          = "archiguru.io"
-#    type            = "A"
-#    name            = "@"
-#    value           = "61.111.251.61"
-#    comment         = "主域名解析"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  },
-#  {
-#    domain          = "jonnyhub.com"
-#    type            = "A"
-#    name            = "www"
-#    value           = "61.111.251.61"
-#    comment         = "主域名解析"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  }
+  {
+    domain          = "archiguru.io"
+    type            = "A"
+    name            = "@"
+    value           = "61.111.251.61"
+    comment         = "根域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "www"
+    value           = "61.111.251.61"
+    comment         = "主域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  }
 ]
 
 #
