@@ -6,31 +6,12 @@ terraform {
 
   required_providers {
     cloudflare = {
-      source  = "cloudflare/cloudflare"
-      version = "~> 4"
+      source = "cloudflare/cloudflare"
+      version = "4.30.0"
     }
   }
 }
 
 provider "cloudflare" {
-  api_token = "1b4b3d542aa69e2491565ce16f3a4abf16f0a"
-}
-
-variable "zone_id" {
-  default = ""
-}
-variable "account_id" {
-  default = "<YOUR_ACCOUNT_ID>"
-}
-
-variable "domain" {
-  default = "<YOUR_DOMAIN>"
-}
-
-resource "cloudflare_record" "www" {
-  zone_id = var.zone_id
-  name    = "www"
-  value   = "203.0.113.10"
-  type    = "A"
-  proxied = true
+  api_token = "uFJMipIZ0Q_iYtrq9t--HdRyVwW0j0Z2V3ep_vBQ"
 }

@@ -1,11 +1,12 @@
-data "cloudflare_zone" "example" {
-  name = "example.com"
-}
+resource "cloudflare_record" "instance" {
+  count = length(var.servers)
 
-resource "cloudflare_record" "example" {
-  zone_id = data.cloudflare_zone.example.id
-  name    = "www"
-  value   = "203.0.113.1"
-  type    = "A"
-  proxied = true
+  name            = var.servers[count.index].name
+  type            = var.servers[count.index].type
+  value           = var.servers[count.index].value
+  comment         = var.servers[count.index].comment
+  ttl             = var.servers[count.index].ttl
+  proxied         = var.servers[count.index].proxied
+  zone_id         = var.domains_zone_id[var.servers[count.index].domain]
+  allow_overwrite = true
 }
