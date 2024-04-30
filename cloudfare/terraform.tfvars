@@ -6,6 +6,7 @@ domains_zone_id = {
 }
 
 servers = [
+  #  =============== jonnyhub.com ===============
   {
     domain          = "jonnyhub.com"
     type            = "A"
@@ -27,11 +28,11 @@ servers = [
     allow_overwrite = true
   },
   {
-    domain          = "archiguru.io"
+    domain          = "jonnyhub.com"
     type            = "A"
-    name            = "@"
+    name            = "admin"
     value           = "61.111.251.61"
-    comment         = "主域名解析"
+    comment         = "KR-1Panel"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -39,13 +40,94 @@ servers = [
   {
     domain          = "jonnyhub.com"
     type            = "A"
-    name            = "www"
+    name            = "aibot"
     value           = "61.111.251.61"
-    comment         = "主域名解析"
+    comment         = "KR-ChatGPT"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
-  }
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "lca"
+    value           = "61.111.251.61"
+    comment         = "KR 3X-UI"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "rack"
+    value           = "61.111.251.61"
+    comment         = "US-3X-UI"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "TXT"
+    name            = "_dmarc"
+    value           = "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"
+    comment         = "DMARC 配置"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "TXT"
+    name            = "_dmarc"
+    value           = "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;"
+    comment         = "DMARC 配置"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "TXT"
+    name            = "default._domainkey"
+    value           = "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2smj8n2Kw9v3kL+zyYq+a2tWp4yzTIrc6nMPnIvY3RXkWRTpMnFjpi4D5Abf1hPjV6XOZ4xZUKlsNT0Prxj+ZNoLwHBYX6wSSOrInSnAwgZMwGTIBuSgZyImIfAr7HzTceAkh0W8ex6ijm9Iv2Fhc5OC0sYiB3E7zldtB8xwIDAQAB"
+    comment         = "存储 DKIM 密钥"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "TXT"
+    name            = "@"
+    value           = "v=spf1 include:spf.protection.jonnyhub.com -all"
+    comment         = "验证域名所有权"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  #  =============== archiguru.io ===============
+#  {
+#    domain          = "archiguru.io"
+#    type            = "A"
+#    name            = "@"
+#    value           = "61.111.251.61"
+#    comment         = "主域名解析"
+#    ttl             = "60"
+#    proxied         = false
+#    allow_overwrite = true
+#  },
+#  {
+#    domain          = "jonnyhub.com"
+#    type            = "A"
+#    name            = "www"
+#    value           = "61.111.251.61"
+#    comment         = "主域名解析"
+#    ttl             = "60"
+#    proxied         = false
+#    allow_overwrite = true
+#  }
 ]
 
 #
