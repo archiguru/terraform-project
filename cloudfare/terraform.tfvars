@@ -191,9 +191,9 @@ server_list = [
 domains_zone_id = {
   "jonnyhub.com" = "2208925448edfde8f5712ba3988c85bc"
   "archiguru.io" = "26857961c32129caf0f3e8753c9cf97c"
-  "rsshub.in" = "db11e042f66c0e48ea4191cbea79a1ea"
+  "rsshub.in"    = "db11e042f66c0e48ea4191cbea79a1ea"
   "dilyslyu.com" = "6c64d264de5dbf7ba013d4ee394b5b79"
-  "eoysky.com" = "422c9b2ef87669586acfd428cbf90f91"
+  "eoysky.com"   = "422c9b2ef87669586acfd428cbf90f91"
 }
 
 zone_list = [
