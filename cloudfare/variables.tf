@@ -10,9 +10,9 @@ variable "domains_zone_id" {
   default     = {}
 }
 
-variable "servers" {
+variable "server_list" {
   description = ""
-  type = list(object({
+  type        = list(object({
     domain          = string
     type            = string
     name            = string
@@ -23,4 +23,10 @@ variable "servers" {
     allow_overwrite = bool
   }))
   default = []
+}
+
+variable "zone_list" {
+  description = ""
+  type        = list(string)
+  default     = []
 }
