@@ -144,6 +144,66 @@ server_list = [
     proxied         = false
     allow_overwrite = true
   },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "admin"
+    value           = "103.38.83.78"
+    comment         = "莱卡云 4G（HK）Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "admin1"
+    value           = "61.111.251.61"
+    comment         = "莱卡云 4G（KR）Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "admin2"
+    value           = "103.38.83.45"
+    comment         = "莱卡云 2G Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "admin3"
+    value           = "38.147.173.222"
+    comment         = "YecaoYun 8G Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "admin4"
+    value           = "142.171.199.189"
+    comment         = "RackNerd 2G Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "admin5"
+    value           = "144.24.77.153"
+    comment         = "Oracle 24G Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
   #  =============== dilyslyu.com ===============
   {
     domain          = "dilyslyu.com"
@@ -167,7 +227,7 @@ server_list = [
     allow_overwrite = true
   },
   {
-    domain          = "dilyslyu.com"
+    domain          = "rsshub.in"
     type            = "A"
     name            = "www"
     value           = "144.24.77.153"
@@ -177,7 +237,7 @@ server_list = [
     allow_overwrite = true
   },
   {
-    domain          = "dilyslyu.com"
+    domain          = "rsshub.in"
     type            = "A"
     name            = "admin"
     value           = "144.24.77.153"
