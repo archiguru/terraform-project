@@ -62,6 +62,16 @@ server_list = [
     proxied         = false
     allow_overwrite = true
   },
+  {
+    domain          = "jonnyhub.com"
+    type            = "CNAME"
+    name            = "backup"
+    value           = "backup-jonnyhub-com-idvo0u8.qiniudns.com"
+    comment         = "US-3X-UI"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
   #  =============== archiguru.io ===============
   {
     domain          = "archiguru.io"
@@ -148,7 +158,7 @@ server_list = [
     domain          = "eoysky.com"
     type            = "A"
     name            = "admin"
-    value           = "103.38.83.78"
+    value           = "103.38.83.45"
     comment         = "莱卡云 4G（HK）Panel"
     ttl             = "60"
     proxied         = false
@@ -168,7 +178,7 @@ server_list = [
     domain          = "eoysky.com"
     type            = "A"
     name            = "admin2"
-    value           = "103.38.83.45"
+    value           = "103.38.83.78"
     comment         = "莱卡云 2G Panel"
     ttl             = "60"
     proxied         = false
