@@ -157,7 +157,7 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "admin"
+    name            = "panel"
     value           = "103.38.83.45"
     comment         = "莱卡云 4G（HK）Panel"
     ttl             = "60"
