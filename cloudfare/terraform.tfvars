@@ -25,16 +25,6 @@ server_list = [
   {
     domain          = "jonnyhub.com"
     type            = "A"
-    name            = "admin"
-    value           = "61.111.251.61"
-    comment         = "KR-1Panel"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
     name            = "aibot"
     value           = "61.111.251.61"
     comment         = "KR-ChatGPT"
