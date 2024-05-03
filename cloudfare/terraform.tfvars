@@ -167,7 +167,7 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "admin1"
+    name            = "panel-kr"
     value           = "61.111.251.61"
     comment         = "莱卡云 4G（KR）Panel"
     ttl             = "60"
@@ -177,7 +177,7 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "admin2"
+    name            = "panel-magic-hk"
     value           = "103.38.83.78"
     comment         = "莱卡云 2G Panel"
     ttl             = "60"
@@ -187,7 +187,7 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "admin3"
+    name            = "panel-dev"
     value           = "38.147.173.222"
     comment         = "YecaoYun 8G Panel"
     ttl             = "60"
@@ -197,7 +197,7 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "admin4"
+    name            = "panel-magic-us"
     value           = "142.171.199.189"
     comment         = "RackNerd 2G Panel"
     ttl             = "60"
@@ -207,7 +207,7 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "admin5"
+    name            = "panel-oracle"
     value           = "144.24.77.153"
     comment         = "Oracle 24G Panel"
     ttl             = "60"
@@ -280,9 +280,29 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "admin"
-    value           = "144.24.77.153"
-    comment         = "主域名解析"
+    name            = "hk"
+    value           = "103.38.83.78"
+    comment         = "Magic Network"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "kr"
+    value           = "61.111.251.61"
+    comment         = "Magic Network"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "us"
+    value           = "142.171.199.189"
+    comment         = "Magic Network"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
