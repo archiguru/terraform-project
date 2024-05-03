@@ -256,14 +256,46 @@ server_list = [
     proxied         = false
     allow_overwrite = true
   },
+  #  =============== magichub.free.hr ===============
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "@"
+    value           = "144.24.77.153"
+    comment         = "根域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "www"
+    value           = "144.24.77.153"
+    comment         = "主域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "admin"
+    value           = "144.24.77.153"
+    comment         = "主域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
 ]
 
 domains_zone_id = {
-  "jonnyhub.com" = "2208925448edfde8f5712ba3988c85bc"
-  "archiguru.io" = "26857961c32129caf0f3e8753c9cf97c"
-  "rsshub.in"    = "db11e042f66c0e48ea4191cbea79a1ea"
-  "dilyslyu.com" = "6c64d264de5dbf7ba013d4ee394b5b79"
-  "eoysky.com"   = "422c9b2ef87669586acfd428cbf90f91"
+  "jonnyhub.com"     = "2208925448edfde8f5712ba3988c85bc"
+  "archiguru.io"     = "26857961c32129caf0f3e8753c9cf97c"
+  "rsshub.in"        = "db11e042f66c0e48ea4191cbea79a1ea"
+  "dilyslyu.com"     = "6c64d264de5dbf7ba013d4ee394b5b79"
+  "eoysky.com"       = "422c9b2ef87669586acfd428cbf90f91"
+  "magichub.free.hr" = "2993d1cb321be0d843d52e997d27f4b2"
 }
 
 zone_list = [
@@ -272,4 +304,5 @@ zone_list = [
   "rsshub.in",
   "dilyslyu.com",
   "eoysky.com",
+  "magichub.free.hr"
 ]
