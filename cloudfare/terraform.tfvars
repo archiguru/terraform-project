@@ -214,6 +214,16 @@ server_list = [
     proxied         = false
     allow_overwrite = true
   },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "tools"
+    value           = "144.24.77.153"
+    comment         = "IT-Tools"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
   #  =============== dilyslyu.com ===============
   {
     domain          = "dilyslyu.com"
