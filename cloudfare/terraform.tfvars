@@ -224,6 +224,16 @@ server_list = [
     proxied         = false
     allow_overwrite = true
   },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "adminer"
+    value           = "103.38.83.45"
+    comment         = "数据库管理工具"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
   #  =============== dilyslyu.com ===============
   {
     domain          = "dilyslyu.com"
