@@ -105,14 +105,14 @@ resource "dns-he-net_cname" "archiguru_io_3" {
   data    = "cname.vercel-dns.com"
 }
 
-resource "dns-he-net_cname" "archiguru_io_3" {
+resource "dns-he-net_cname" "archiguru_io_4" {
   zone_id = 1208683
   domain  = "blog.archiguru.io"
   ttl     = 300
   data    = "ghs.google.com"
 }
 
-#resource "dns-he-net_cname" "archiguru_io_3" {
+#resource "dns-he-net_cname" "archiguru_io_5" {
 #  zone_id = 1208683
 #  domain  = "mis62w5cefnv.archiguru.io"
 #  ttl     = 300
