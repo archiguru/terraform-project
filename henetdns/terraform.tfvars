@@ -66,67 +66,6 @@ server_ip_map = {
 #    proxied         = false
 #    allow_overwrite = true
 #  },
-#  #  =============== archiguru.io ===============
-#  {
-#    domain          = "archiguru.io"
-#    type            = "A"
-#    name            = "@"
-#    value           = "144.24.77.153"
-#    comment         = "根域名解析"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  },
-#  {
-#    domain          = "archiguru.io"
-#    type            = "A"
-#    name            = "www"
-#    value           = "144.24.77.153"
-#    comment         = "主域名解析"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  },
-#  {
-#    domain          = "archiguru.io"
-#    type            = "CNAME"
-#    name            = "static"
-#    value           = "static-archiguru-io-idvnxug.qiniudns.com"
-#    comment         = "CDN 静态代理"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  },
-#  {
-#    domain          = "archiguru.io"
-#    type            = "CNAME"
-#    name            = "vlog"
-#    value           = "cname.vercel-dns.com"
-#    comment         = "静态博客"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  },
-#  {
-#    domain          = "archiguru.io"
-#    type            = "CNAME"
-#    name            = "blog"
-#    value           = "ghs.google.com"
-#    comment         = "Blogger 博客"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  },
-#  {
-#    domain          = "archiguru.io"
-#    type            = "CNAME"
-#    name            = "mis62w5cefnv"
-#    value           = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
-#    comment         = "博客验证"
-#    ttl             = "60"
-#    proxied         = false
-#    allow_overwrite = true
-#  },
 #  #  =============== dilyslyu.com ===============
 #  {
 #    domain          = "dilyslyu.com"
