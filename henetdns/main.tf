@@ -77,6 +77,19 @@ resource "dns-he-net_a" "eoysky_com_9" {
   ttl     = 300
 }
 
+resource "dns-he-net_txt" "eoysky_com_10" {
+  zone_id = 123456
+  domain  = "_easyhttps-acme.eoysky.com"
+  ttl     = 300
+  data    = "\"suybgirkhp\""
+}
+resource "dns-he-net_cname" "eoysky_com_11" {
+  zone_id = 1208682
+  domain  = "eoysky.com.acmecname.zhetao.com"
+  data    = "suybgirkhp"
+  ttl     = 300
+}
+#########################################################################################
 resource "dns-he-net_a" "archiguru_io_0" {
   zone_id = 1208683
   domain  = "archiguru.io"
