@@ -1,67 +1,6 @@
 account_id = "db114db1f0c7813c84ad064340dc8b9c"
 
 server_list = [
-  #  =============== jonnyhub.com ===============
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "@"
-    value           = "61.111.251.61"
-    comment         = "根域名解析"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "www"
-    value           = "61.111.251.61"
-    comment         = "主域名解析"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "aibot"
-    value           = "61.111.251.61"
-    comment         = "KR-ChatGPT"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "lca"
-    value           = "61.111.251.61"
-    comment         = "KR 3X-UI"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "rack"
-    value           = "142.171.199.189"
-    comment         = "US-3X-UI"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "CNAME"
-    name            = "backup"
-    value           = "backup-jonnyhub-com-idvo0u8.qiniudns.com"
-    comment         = "US-3X-UI"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
   #  =============== archiguru.io ===============
   {
     domain          = "archiguru.io"
@@ -224,13 +163,63 @@ server_list = [
     proxied         = false
     allow_overwrite = true
   },
-  #  =============== dilyslyu.com ===============
+  #  =============== jonnyhub.com ===============
   {
-    domain          = "dilyslyu.com"
-    type            = "CNAME"
+    domain          = "jonnyhub.com"
+    type            = "A"
     name            = "@"
-    value           = "cname.vercel-dns.com"
+    value           = "61.111.251.61"
     comment         = "根域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "www"
+    value           = "61.111.251.61"
+    comment         = "主域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "aibot"
+    value           = "61.111.251.61"
+    comment         = "KR-ChatGPT"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "lca"
+    value           = "61.111.251.61"
+    comment         = "KR 3X-UI"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "rack"
+    value           = "142.171.199.189"
+    comment         = "US-3X-UI"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "CNAME"
+    name            = "backup"
+    value           = "backup-jonnyhub-com-idvo0u8.qiniudns.com"
+    comment         = "US-3X-UI"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -313,6 +302,17 @@ server_list = [
     name            = "us"
     value           = "142.171.199.189"
     comment         = "Magic Network"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  #  =============== dilyslyu.com ===============
+  {
+    domain          = "dilyslyu.com"
+    type            = "CNAME"
+    name            = "@"
+    value           = "cname.vercel-dns.com"
+    comment         = "根域名解析"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
