@@ -1,4 +1,3 @@
-
 ## Dynadot
 
 - archiguru.io
@@ -26,6 +25,7 @@
   - NS1	ainsley.ns.cloudflare.com 
   - NS2	gabriel.ns.cloudflare.com
 
+## Regtons
 - magichub.free.hr
   - 2993d1cb321be0d843d52e997d27f4b2
   - NS1 ara.ns.cloudflare.com
