@@ -6,8 +6,8 @@ server_list = [
     domain          = "archiguru.io"
     type            = "A"
     name            = "@"
-    value           = "144.24.77.153"
-    comment         = "根域名解析"
+    value           = "103.38.83.45"
+    comment         = "Wordpress Blog"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -16,8 +16,8 @@ server_list = [
     domain          = "archiguru.io"
     type            = "A"
     name            = "www"
-    value           = "144.24.77.153"
-    comment         = "主域名解析"
+    value           = "103.38.83.45"
+    comment         = "Wordpress Blog"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -67,7 +67,7 @@ server_list = [
     domain          = "eoysky.com"
     type            = "A"
     name            = "@"
-    value           = "144.24.77.153"
+    value           = "103.38.83.45"
     comment         = "根域名解析"
     ttl             = "60"
     proxied         = false
@@ -77,7 +77,7 @@ server_list = [
     domain          = "eoysky.com"
     type            = "A"
     name            = "www"
-    value           = "144.24.77.153"
+    value           = "103.38.83.45"
     comment         = "主域名解析"
     ttl             = "60"
     proxied         = false
@@ -96,49 +96,9 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "panel-kr"
-    value           = "61.111.251.61"
-    comment         = "莱卡云 4G（KR）Panel"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "panel-magic-hk"
-    value           = "103.38.83.78"
-    comment         = "莱卡云 2G Panel"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
     name            = "panel-dev"
-    value           = "38.147.173.222"
+    value           = "61.111.251.61"
     comment         = "YecaoYun 8G Panel"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "panel-magic-us"
-    value           = "142.171.199.189"
-    comment         = "RackNerd 2G Panel"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "panel-oracle"
-    value           = "144.24.77.153"
-    comment         = "Oracle 24G Panel"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -149,16 +109,6 @@ server_list = [
     name            = "tools"
     value           = "103.38.83.45"
     comment         = "IT-Tools"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "adminer"
-    value           = "103.38.83.45"
-    comment         = "数据库管理工具"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -279,19 +229,9 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "hk"
-    value           = "103.38.83.78"
-    comment         = "Magic Network"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "magichub.free.hr"
-    type            = "A"
-    name            = "kr"
+    name            = "kr.magichub.free.hr"
     value           = "61.111.251.61"
-    comment         = "Magic Network"
+    comment         = "KR Magic"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -299,9 +239,49 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "us"
+    name            = "xui.kr.magichub.free.hr"
+    value           = "61.111.251.61"
+    comment         = "KR Magic Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "hk.magichub.free.hr"
+    value           = "103.38.83.78"
+    comment         = "HK Magic"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "xui.hk.magichub.free.hr"
+    value           = "103.38.83.78"
+    comment         = "HK Magic Panel"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "us.magichub.free.hr"
     value           = "142.171.199.189"
-    comment         = "Magic Network"
+    comment         = "US Magic"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "xui.us.magichub.free.hr"
+    value           = "142.171.199.189"
+    comment         = "US Magic Panel"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
