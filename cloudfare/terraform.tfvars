@@ -69,8 +69,8 @@ server_list = [
     name            = "@"
     value           = "103.38.83.45"
     comment         = "根域名解析"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -79,28 +79,8 @@ server_list = [
     name            = "www"
     value           = "103.38.83.45"
     comment         = "主域名解析"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "panel"
-    value           = "103.38.83.45"
-    comment         = "莱卡云 4G（HK）Panel"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "panel-dev"
-    value           = "61.111.251.61"
-    comment         = "YecaoYun 8G Panel"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -109,8 +89,8 @@ server_list = [
     name            = "tools"
     value           = "103.38.83.45"
     comment         = "IT-Tools"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   #  =============== jonnyhub.com ===============
@@ -120,8 +100,8 @@ server_list = [
     name            = "@"
     value           = "61.111.251.61"
     comment         = "根域名解析"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -130,48 +110,8 @@ server_list = [
     name            = "www"
     value           = "61.111.251.61"
     comment         = "主域名解析"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "aibot"
-    value           = "61.111.251.61"
-    comment         = "KR-ChatGPT"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "lca"
-    value           = "61.111.251.61"
-    comment         = "KR 3X-UI"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "A"
-    name            = "rack"
-    value           = "142.171.199.189"
-    comment         = "US-3X-UI"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "jonnyhub.com"
-    type            = "CNAME"
-    name            = "backup"
-    value           = "backup-jonnyhub-com-idvo0u8.qiniudns.com"
-    comment         = "US-3X-UI"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   #  =============== rsshub.in ===============
