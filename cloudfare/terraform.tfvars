@@ -181,8 +181,8 @@ server_list = [
     name            = "@"
     value           = "144.24.77.153"
     comment         = "根域名解析"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -191,8 +191,8 @@ server_list = [
     name            = "www"
     value           = "144.24.77.153"
     comment         = "主域名解析"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -201,8 +201,8 @@ server_list = [
     name            = "admin"
     value           = "144.24.77.153"
     comment         = "FreshRSS"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -211,8 +211,8 @@ server_list = [
     name            = "wx"
     value           = "144.24.77.153"
     comment         = "wx 公众号解析工具"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   #  =============== magichub.free.hr ===============
@@ -222,8 +222,8 @@ server_list = [
     name            = "@"
     value           = "103.38.83.78"
     comment         = "根域名解析"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -232,8 +232,8 @@ server_list = [
     name            = "www"
     value           = "103.38.83.78"
     comment         = "主域名解析"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -272,8 +272,8 @@ server_list = [
     name            = "us.magichub.free.hr"
     value           = "142.171.199.189"
     comment         = "US Magic"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   #  =============== dilyslyu.com ===============
