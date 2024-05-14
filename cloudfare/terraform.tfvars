@@ -8,8 +8,8 @@ server_list = [
     name            = "@"
     value           = "103.38.83.45"
     comment         = "Wordpress Blog"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -18,8 +18,8 @@ server_list = [
     name            = "www"
     value           = "103.38.83.45"
     comment         = "Wordpress Blog"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -28,8 +28,8 @@ server_list = [
     name            = "static"
     value           = "static-archiguru-io-idvnxug.qiniudns.com"
     comment         = "CDN 静态代理"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -38,8 +38,8 @@ server_list = [
     name            = "vlog"
     value           = "cname.vercel-dns.com"
     comment         = "静态博客"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -48,8 +48,8 @@ server_list = [
     name            = "blog"
     value           = "ghs.google.com"
     comment         = "Blogger 博客"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -58,8 +58,8 @@ server_list = [
     name            = "mis62w5cefnv"
     value           = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
     comment         = "博客验证"
-    ttl             = "60"
-    proxied         = false
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   #  =============== eoysky.com ===============
