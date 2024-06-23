@@ -34,16 +34,6 @@ server_list = [
   },
   {
     domain          = "archiguru.io"
-    type            = "A"
-    name            = "chat"
-    value           = "103.38.83.45"
-    comment         = "AIChatBotFeishuAPI"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "archiguru.io"
     type            = "CNAME"
     name            = "vlog"
     value           = "cname.vercel-dns.com"
@@ -226,13 +216,43 @@ server_list = [
     proxied         = true
     allow_overwrite = true
   },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "bwh.magichub.free.hr"
+    value           = "104.194.86.58"
+    comment         = "US Magic"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "CNAME"
+    name            = "strict"
+    value           = "magic-1fp.pages.dev"
+    comment         = "magic-1fp"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
   #  =============== dilyslyu.com ===============
   {
     domain          = "dilyslyu.com"
-    type            = "CNAME"
+    type            = "A"
     name            = "@"
-    value           = "cname.vercel-dns.com"
+    value           = "103.38.83.45"
     comment         = "根域名解析"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "dilyslyu.com"
+    type            = "A"
+    name            = "www"
+    value           = "103.38.83.45"
+    comment         = "主域名解析"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
