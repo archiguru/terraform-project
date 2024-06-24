@@ -35,29 +35,29 @@ server_list = [
   {
     domain          = "archiguru.io"
     type            = "CNAME"
-    name            = "vlog"
-    value           = "cname.vercel-dns.com"
-    comment         = "静态博客"
-    ttl             = "1"
-    proxied         = true
-    allow_overwrite = true
-  },
-  {
-    domain          = "archiguru.io"
-    type            = "CNAME"
-    name            = "blog"
+    name            = "blogger"
     value           = "ghs.google.com"
     comment         = "Blogger 博客"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
   },
+#   {
+#     domain          = "archiguru.io"
+#     type            = "CNAME"
+#     name            = "mis62w5cefnv"
+#     value           = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
+#     comment         = "博客验证"
+#     ttl             = "1"
+#     proxied         = true
+#     allow_overwrite = true
+#   },
   {
     domain          = "archiguru.io"
     type            = "CNAME"
-    name            = "mis62w5cefnv"
-    value           = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
-    comment         = "博客验证"
+    name            = "blog"
+    value           = "blog-archiguru-io.pages.dev"
+    comment         = "CF Page 博客"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
@@ -150,7 +150,7 @@ server_list = [
     type            = "A"
     name            = "wx"
     value           = "158.180.93.201"
-    comment         = "wx 公众号解析工具"
+    comment         = "公众号解析工具"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
@@ -221,9 +221,9 @@ server_list = [
     type            = "A"
     name            = "bwh.magichub.free.hr"
     value           = "104.194.86.58"
-    comment         = "US Magic"
-    ttl             = "60"
-    proxied         = false
+    comment         = "搬瓦工"
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {

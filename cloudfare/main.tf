@@ -22,3 +22,8 @@ resource "cloudflare_record" "instance" {
   zone_id         = var.domains_zone_id[var.server_list[count.index].domain]
   allow_overwrite = true
 }
+#
+# data "cloudflare_record" "archiguru" {
+#   zone_id  = "26857961c32129caf0f3e8753c9cf97c"
+#   hostname = "archiguru.io"
+# }
