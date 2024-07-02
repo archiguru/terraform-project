@@ -4,20 +4,10 @@ server_list = [
   #  =============== archiguru.io ===============
   {
     domain          = "archiguru.io"
-    type            = "A"
+    type            = "CNAME"
     name            = "@"
-    value           = "103.38.83.45"
-    comment         = "Wordpress Blog"
-    ttl             = "1"
-    proxied         = true
-    allow_overwrite = true
-  },
-  {
-    domain          = "archiguru.io"
-    type            = "A"
-    name            = "www"
-    value           = "103.38.83.45"
-    comment         = "Wordpress Blog"
+    value           = "archiguru.pages.dev"
+    comment         = "HomePage"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
@@ -25,9 +15,19 @@ server_list = [
   {
     domain          = "archiguru.io"
     type            = "CNAME"
-    name            = "static"
-    value           = "static-archiguru-io-idvnxug.qiniudns.com"
-    comment         = "CDN 静态代理"
+    name            = "www"
+    value           = "archiguru.pages.dev"
+    comment         = "HomePage"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
+  {
+    domain          = "archiguru.io"
+    type            = "CNAME"
+    name            = "blog"
+    value           = "blog-archiguru-io.pages.dev"
+    comment         = "博客"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
@@ -42,22 +42,12 @@ server_list = [
     proxied         = true
     allow_overwrite = true
   },
-#   {
-#     domain          = "archiguru.io"
-#     type            = "CNAME"
-#     name            = "mis62w5cefnv"
-#     value           = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
-#     comment         = "博客验证"
-#     ttl             = "1"
-#     proxied         = true
-#     allow_overwrite = true
-#   },
   {
     domain          = "archiguru.io"
     type            = "CNAME"
-    name            = "blog"
-    value           = "blog-archiguru-io.pages.dev"
-    comment         = "CF Page 博客"
+    name            = "static"
+    value           = "static-archiguru-io-idvnxug.qiniudns.com"
+    comment         = "CDN 静态代理"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
@@ -89,6 +79,16 @@ server_list = [
     name            = "tools"
     value           = "103.38.83.45"
     comment         = "IT-Tools"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "one"
+    value           = "103.38.83.45"
+    comment         = "Nav"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true

@@ -13,5 +13,6 @@ terraform {
 }
 
 provider "cloudflare" {
-  api_token = "uFJMipIZ0Q_iYtrq9t--HdRyVwW0j0Z2V3ep_vBQ"
+  email = "jonny6015@icloud.com"
+  api_key = "1b4b3d542aa69e2491565ce16f3a4abf16f0a"
 }
