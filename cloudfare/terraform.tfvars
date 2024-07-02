@@ -45,6 +45,16 @@ server_list = [
   {
     domain          = "archiguru.io"
     type            = "CNAME"
+    name            = "mis62w5cefnv"
+    value           = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
+    comment         = "Blogger 博客验证"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
+  {
+    domain          = "archiguru.io"
+    type            = "CNAME"
     name            = "static"
     value           = "static-archiguru-io-idvnxug.qiniudns.com"
     comment         = "CDN 静态代理"
