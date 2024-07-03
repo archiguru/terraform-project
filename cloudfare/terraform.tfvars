@@ -38,8 +38,8 @@ server_list = [
     name            = "blogger"
     value           = "ghs.google.com"
     comment         = "Blogger 博客"
-    ttl             = "1"
-    proxied         = true
+    ttl             = "60"
+    proxied         = false
     allow_overwrite = true
   },
   {
@@ -48,8 +48,8 @@ server_list = [
     name            = "mis62w5cefnv"
     value           = "gv-52sfhuu3zw4yah.dv.googlehosted.com"
     comment         = "Blogger 博客验证"
-    ttl             = "1"
-    proxied         = true
+    ttl             = "60"
+    proxied         = false
     allow_overwrite = true
   },
   {
