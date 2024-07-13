@@ -67,7 +67,7 @@ server_list = [
     domain          = "eoysky.com"
     type            = "A"
     name            = "@"
-    value           = "103.38.83.45"
+    value           = "61.111.251.61"
     comment         = "根域名解析"
     ttl             = "1"
     proxied         = true
@@ -77,7 +77,7 @@ server_list = [
     domain          = "eoysky.com"
     type            = "A"
     name            = "www"
-    value           = "103.38.83.45"
+    value           = "61.111.251.61"
     comment         = "主域名解析"
     ttl             = "1"
     proxied         = true
@@ -86,9 +86,19 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "tools"
-    value           = "103.38.83.45"
+    name            = "it"
+    value           = "61.111.251.61"
     comment         = "IT-Tools"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
+    name            = "admin"
+    value           = "61.111.251.61"
+    comment         = "Nav"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
@@ -189,9 +199,29 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "kr.magichub.free.hr"
+    name            = "krv.magichub.free.hr"
     value           = "61.111.251.61"
-    comment         = "KR Magic"
+    comment         = "KR VMess"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "krt.magichub.free.hr"
+    value           = "61.111.251.61"
+    comment         = "KR Trojan"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "krs.magichub.free.hr"
+    value           = "61.111.251.61"
+    comment         = "KR Shadow TLS"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
