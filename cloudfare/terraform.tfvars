@@ -201,7 +201,7 @@ server_list = [
     type            = "A"
     name            = "krv.magichub.free.hr"
     value           = "61.111.251.61"
-    comment         = "KR VMess"
+    comment         = "KR VMess-WS-TLS"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -211,7 +211,17 @@ server_list = [
     type            = "A"
     name            = "krt.magichub.free.hr"
     value           = "61.111.251.61"
-    comment         = "KR Trojan"
+    comment         = "KR Trojan-WS-TLS"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "krvh.magichub.free.hr"
+    value           = "61.111.251.61"
+    comment         = "KR VMess-H2-TLS"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
