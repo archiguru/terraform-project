@@ -242,8 +242,8 @@ server_list = [
     name            = "us.magichub.free.hr"
     value           = "142.171.199.189"
     comment         = "US Magic"
-    ttl             = "1"
-    proxied         = true
+    ttl             = "60"
+    proxied         = false
     allow_overwrite = true
   },
   {
@@ -252,18 +252,8 @@ server_list = [
     name            = "bwh.magichub.free.hr"
     value           = "104.194.86.58"
     comment         = "搬瓦工"
-    ttl             = "1"
-    proxied         = true
-    allow_overwrite = true
-  },
-  {
-    domain          = "magichub.free.hr"
-    type            = "CNAME"
-    name            = "strict"
-    value           = "magic-1fp.pages.dev"
-    comment         = "magic-1fp"
-    ttl             = "1"
-    proxied         = true
+    ttl             = "60"
+    proxied         = false
     allow_overwrite = true
   },
   #  =============== dilyslyu.com ===============
