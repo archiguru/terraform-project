@@ -249,11 +249,11 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "us.magichub.free.hr"
+    name            = "rack.magichub.free.hr"
     value           = "142.171.199.189"
-    comment         = "US Magic"
-    ttl             = "60"
-    proxied         = false
+    comment         = "RackNerd Magic"
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   {
@@ -261,9 +261,9 @@ server_list = [
     type            = "A"
     name            = "bwh.magichub.free.hr"
     value           = "104.194.86.58"
-    comment         = "搬瓦工"
-    ttl             = "60"
-    proxied         = false
+    comment         = "BandwagonHost Magic"
+    ttl             = "1"
+    proxied         = true
     allow_overwrite = true
   },
   #  =============== dilyslyu.com ===============
