@@ -201,7 +201,7 @@ server_list = [
     type            = "A"
     name            = "krv.magichub.free.hr"
     value           = "61.111.251.61"
-    comment         = "KR VMess-WS-TLS"
+    comment         = "莱卡云 KR"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -209,29 +209,9 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "krt.magichub.free.hr"
-    value           = "61.111.251.61"
-    comment         = "KR Trojan-WS-TLS"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "magichub.free.hr"
-    type            = "A"
-    name            = "krvh.magichub.free.hr"
-    value           = "61.111.251.61"
-    comment         = "KR VMess-H2-TLS"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "magichub.free.hr"
-    type            = "A"
-    name            = "hk1.magichub.free.hr"
+    name            = "hka.magichub.free.hr"
     value           = "103.38.83.78"
-    comment         = "HK2G Magic"
+    comment         = "莱卡云 HK"
     ttl             = "60"
     proxied         = false
     allow_overwrite = true
@@ -239,7 +219,7 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "hk2.magichub.free.hr"
+    name            = "hkb.magichub.free.hr"
     value           = "103.38.83.45"
     comment         = "HK4G Magic"
     ttl             = "60"
@@ -249,21 +229,31 @@ server_list = [
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "rack.magichub.free.hr"
-    value           = "142.171.199.189"
-    comment         = "RackNerd Magic"
-    ttl             = "1"
-    proxied         = true
+    name            = "usa.magichub.free.hr"
+    value           = "154.201.92.204"
+    comment         = "莱卡云 US"
+    ttl             = "60"
+    proxied         = false
     allow_overwrite = true
   },
   {
     domain          = "magichub.free.hr"
     type            = "A"
-    name            = "bwh.magichub.free.hr"
+    name            = "usb.magichub.free.hr"
     value           = "104.194.86.58"
-    comment         = "BandwagonHost Magic"
-    ttl             = "1"
-    proxied         = true
+    comment         = "BandwagonHost US"
+    ttl             = "60"
+    proxied         = false
+    allow_overwrite = true
+  },
+  {
+    domain          = "magichub.free.hr"
+    type            = "A"
+    name            = "usc.magichub.free.hr"
+    value           = "142.171.199.189"
+    comment         = "RackNerd Magic"
+    ttl             = "60"
+    proxied         = false
     allow_overwrite = true
   },
   #  =============== dilyslyu.com ===============
