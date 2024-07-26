@@ -88,9 +88,9 @@ server_list = [
     type            = "A"
     name            = "imgurl"
     value           = "61.111.251.61"
-    comment         = "IT-Tools"
-    ttl             = "1"
-    proxied         = true
+    comment         = "ImgUrl"
+    ttl             = "60"
+    proxied         = false
     allow_overwrite = true
   },
   {
