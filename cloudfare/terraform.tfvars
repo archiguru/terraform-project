@@ -86,6 +86,16 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
+    name            = "imgurl"
+    value           = "61.111.251.61"
+    comment         = "IT-Tools"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
+  {
+    domain          = "eoysky.com"
+    type            = "A"
     name            = "it"
     value           = "61.111.251.61"
     comment         = "IT-Tools"
