@@ -34,6 +34,16 @@ server_list = [
   },
   {
     domain          = "archiguru.io"
+    type            = "A"
+    name            = "nav"
+    value           = "61.111.251.61"
+    comment         = "网站导航"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
+  {
+    domain          = "archiguru.io"
     type            = "CNAME"
     name            = "blogger"
     value           = "ghs.google.com"
@@ -86,39 +96,9 @@ server_list = [
   {
     domain          = "eoysky.com"
     type            = "A"
-    name            = "imgurl"
-    value           = "61.111.251.61"
-    comment         = "ImgUrl"
-    ttl             = "60"
-    proxied         = false
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
     name            = "it"
     value           = "61.111.251.61"
     comment         = "IT-Tools"
-    ttl             = "1"
-    proxied         = true
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "admin"
-    value           = "61.111.251.61"
-    comment         = "Nav"
-    ttl             = "1"
-    proxied         = true
-    allow_overwrite = true
-  },
-  {
-    domain          = "eoysky.com"
-    type            = "A"
-    name            = "one"
-    value           = "103.38.83.45"
-    comment         = "Nav"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
@@ -140,6 +120,16 @@ server_list = [
     name            = "www"
     value           = "61.111.251.61"
     comment         = "主域名解析"
+    ttl             = "1"
+    proxied         = true
+    allow_overwrite = true
+  },
+  {
+    domain          = "jonnyhub.com"
+    type            = "A"
+    name            = "imghub"
+    value           = "61.111.251.61"
+    comment         = "ImgUrl"
     ttl             = "1"
     proxied         = true
     allow_overwrite = true
